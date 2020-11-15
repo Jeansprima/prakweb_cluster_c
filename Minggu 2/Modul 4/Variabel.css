@@ -1,0 +1,116 @@
+body {
+  background-color: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  background-color: #333;
+}
+.navbar li {
+  float: right;
+  margin-right: 20px;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: #5fdfff;
+}
+
+.sidebar {
+  float: left;
+  background-color: #333;
+  height: 100%;
+  width: 18%;
+  position: fixed;
+}
+.sidebar ul {
+  list-style-type: circle;
+  margin-top: 20px;
+  padding-left: 50px;
+  overflow: auto;
+  background-color: #333;
+  position: sticky;
+}
+.sidebar li {
+  padding: 20px 20px;
+  color: white;
+}
+
+.content {
+  float: right;
+  background-color: #3f3f3f;
+  height: 100%;
+  width: 80%;
+}
+.content h1 {
+  color: white;
+  padding-left: 20px;
+}
+.content .text-bar {
+  background-color: #242924;
+  color: white;
+  margin-top: 2px;
+  padding: 5px;
+  font-size: 20pt;
+  text-shadow: #333;
+}
+.content .cnt {
+  background-color: #262626;
+  padding: 5px 5px;
+  color: #d9f80e;
+  display: flex;
+}
+.content .contact {
+  height: 50px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.content .gallery {
+  display: flex;
+  margin-bottom: 10px;
+}
+.content .contact-img {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  float: left;
+}
+.content .contact-tx a {
+  color: white;
+  float: right;
+  margin-top: 4px;
+}
+.content .logo-itera {
+  height: 80px;
+  width: 70px;
+  padding: 10px;
+  float: left;
+  margin-top: 10px;
+}
+.content .itera-tx {
+  color: white;
+  float: right;
+}
+.content .about {
+  padding-bottom: 60px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #4c4f4d;
+  color: white;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  margin-right: 5px;
+}

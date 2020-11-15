@@ -1,0 +1,121 @@
+$mycolour: rgb(95, 223, 255);
+$content: rgb(63, 63, 63);
+$bgcolour: #333;
+$number1: 20px;
+$align1: center;
+
+body {
+    background-color: $bgcolour;
+}
+
+.navbar {
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: sticky;
+        background-color: $bgcolour;
+    }
+    li {
+        float: right;
+        margin-right: $number1;
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: $align1;
+        padding: 14px $number1;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color: $mycolour;
+    }
+}
+.sidebar {
+    float: left;
+    background-color: $bgcolour;
+    height: 100%;
+    width: 18%;
+    position: fixed;;
+    ul {
+        list-style-type: circle;;
+        margin-top: 20px;
+        padding-left: 50px;
+        overflow: auto;
+        background-color: $bgcolour;
+        position: sticky;
+    }
+    li {
+        padding: 20px 20px;
+        color: white;
+    }
+}
+.content {
+    h1 {
+        color: white;
+        padding-left: 20px;
+    }
+    float: right;
+    background-color: $content;
+    height: 100%;
+    width: 80%;
+    .text-bar {
+        background-color: rgb(36, 41, 36);
+        color: white;
+        margin-top: 2px;
+        padding: 5px;
+        font-size: 20pt;
+        text-shadow: $bgcolour;
+    }
+    .cnt {
+        background-color: rgb(38, 38, 38);
+        padding: 5px 5px;
+        color:rgb(217, 248, 14);
+        display: flex;
+    }
+    .contact {
+        height: 50px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .gallery {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .contact-img {
+        height: 40px;
+        width: 40px;
+        padding: 10px;
+        float: left;
+    }
+    .contact-tx a{
+        color: white;
+        float: right;
+        margin-top: 4px;
+    }
+    .logo-itera {
+        height: 80px;
+        width: 70px;
+        padding: 10px;
+        float: left;
+        margin-top: 10px;
+    }
+    .itera-tx {
+        color: white;
+        float: right;
+    }
+    .about {
+        padding-bottom: 60px;
+    }
+}
+.footer {
+    text-align: center;
+    background-color: rgb(76, 79, 77);
+    color: white;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    margin-right: 5px;
+}
