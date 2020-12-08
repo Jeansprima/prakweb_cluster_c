@@ -1,0 +1,16 @@
+{
+    "nama": {
+        "awal": "Jeans",
+        "akhir": "Prima"
+    },
+    "jenisKelamin": "Laki-laki",
+    "orangtua": {
+        "ayah": "L.Simaremare",
+        "ibu": "M.Situmorang"
+    },
+    "hobby": "Musik",
+    "alamat": "Perum Korpri",
+    "sosialMedia": {
+        "Instagram" : "jeansprima"
+    }
+}

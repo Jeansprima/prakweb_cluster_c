@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<data_Diri>
+  <nama>
+    <awal>Jeans</awal>
+    <akhir>Prima</akhir>
+  </nama>
+
+  <jenisKelamin>Laki-laki</jenisKelamin>
+
+  <orangtua>
+    <ayah>L.Simaremare</ayah>
+    <ibu>M.Situmorang</ibu>
+  </orangtua>
+
+  <hobby>Musik</hobby>
+
+  <alamat>Perum Korpri</alamat>
+
+  <sosialMedia>
+    <Instagram>jeansprima</Instagram>
+  </sosialMedia>
+</data_Diri>
