@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+        <label>Pilih Prodi : </label>
+        <select name="prodi" id="prodi">
+                <option value="IF">Teknik Informatika</option>
+                <option value="EL">Teknik Elektro</option>
+                <option value="SI">Teknik Sipil</option>
+                <option value="TG">Teknik Geofisika</option>
+                <option value="MA">Matematika</option>
+        </select>
+      
+        <hr>
+        <div id="tampil_data"></div>
+        <script>
+              $(document).ready(function(){
+                    $('#tampil_data').load("tampil_combo.php");
+                    $('#prodi').bind('change', function () {
+                        var prodi=$("#prodi").val();
+                        $.ajax({
+                            method: 'POST',
+                            url	: "tampil_combo.php",
+                            data: {prodi:prodi},
+                            success	: function(data){
+                                $('#tampil_data').html(data);
+                            }
+                        });
+                    });
+              });
+        </script>
+
+    </body>
+</html>
